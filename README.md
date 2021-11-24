@@ -15,7 +15,8 @@ berikut penulisan dalam python:
 
 dengan keterangan:
 
-list=["a", "b", "c", "d", "e"] 
+<list=["a", "b", "c", "d", "e"]>
+
 - diatas adalah isi list nya
 
 
