@@ -99,8 +99,10 @@ Berikut hasil programnya:
 
 ![Gambar 6](screenshot/List_Nilai_Mahasiswa1.PNG)
 
-- Keterangan: 
+- Keterangan:
+
 i=0
+
 - diatas adalah untuk  mendefinisikan index untuk penomoran
 
 nama=[]
@@ -109,6 +111,7 @@ tugas=[]
 uts=[]
 uas=[]
 nilai_akhir=[]
+
 - diatas adalah untuk mendefinisikan list nya, terdapat list untuk menampung nama, nim, tugas, uts, uas, dan nilai akhir
 
 while True:
@@ -122,19 +125,20 @@ while True:
     uts.append(i_uts)
     i_uas=input("Nilai UAS    : ")
     uas.append(i_uas)
+    
 - diatas adalah code untuk menginput isi dalam list tersebut, juga untuk menambahkan list jika sudah menginput 1 nama atau nilai dalam list, dengan menggunakan append dan menggunakan pengulangan while
 
-    i_nilai_akhir=(int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35)
-    nilai_akhir.append(i_nilai_akhir)
+i_nilai_akhir=(int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35)
+nilai_akhir.append(i_nilai_akhir)
 
 - diatas adalah code untuk menghitung nilai akhir dengan kondisi nilai akhir 30% dari nilai tugas, ditambah 35% dari nilai UTS dan juga 35% dari nilai UAS, dengan kemudian diubah persentase menjadi bentuk desimal, maka terdapat 0.30, 0.35. sedangkan untuk nilai_akhir.append adalah untuk menambahkan list dari yang telah di inputkan sebelum akhirnya di tampilkan
 
-    more=""
-    while more!="y" and more!="t":
-        more=input("Tambah Data (y/t) ?")
-    i+=1
-    if more=="t":
-        break
+more=""
+while more!="y" and more!="t":
+    more=input("Tambah Data (y/t) ?")
+i+=1
+if more=="t":
+    break
 
 - sedangkan code diatas adalah untuk perintah menambahkan data dengan pertanyaan ya atau tidak, dengan definisi jika ya, maka ketikkan y pada keyboard, maka akan mengulang inputan list. dan jika tidak, ketikkan t paada keyboard, maka akan menampilkan hasil list yang telah di inputkan
 
