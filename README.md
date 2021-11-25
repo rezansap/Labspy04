@@ -123,7 +123,7 @@ Berikut hasil programnya:
 ```python
 i=0
 ```
-- diatas adalah untuk  mendefinisikan index untuk penomoran
+- diatas adalah untuk  menginisiasikan variable i sama dengan 0, karena diprogram ini akan menggunakan perulangan while dan for, jadi perlu di inisiasikan agar tidak terjadi error 
 
 ```python
 nama=[]
